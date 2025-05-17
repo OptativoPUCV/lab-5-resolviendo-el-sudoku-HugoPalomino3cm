@@ -20,3 +20,15 @@ Sat, May 17, 2025 12:21:00 AM:
  tests:  2|4
 total_score: 15/70
 0d12a23
+Sat, May 17, 2025 12:22:52 AM: 
+ sudoku.c | 39 +++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 39 insertions(+)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c:82:5: error: redefinition of 'is_valid'
+ int is_valid(Node* n){
+     ^~~~~~~~
+sudoku.c:46:5: note: previous definition of 'is_valid' was here
+ int is_valid(Node* n){
+     ^~~~~~~~
+d3e07e2
