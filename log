@@ -32,3 +32,9 @@ sudoku.c:46:5: note: previous definition of 'is_valid' was here
  int is_valid(Node* n){
      ^~~~~~~~
 d3e07e2
+Sat, May 17, 2025 12:23:43 AM: 
+ sudoku.c | 69 +++++++++++++++++++++++++++++++---------------------------------
+ 1 file changed, 33 insertions(+), 36 deletions(-)
+ tests:  5|3
+total_score: 35/70
+367b5c2
